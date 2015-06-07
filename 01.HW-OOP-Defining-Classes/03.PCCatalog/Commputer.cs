@@ -7,7 +7,7 @@ class Commputer
     private string name;
     private List<Components> components;
 
-    public string Name {
+    public string Name {//comment
         get
         {
             return this.name; 
