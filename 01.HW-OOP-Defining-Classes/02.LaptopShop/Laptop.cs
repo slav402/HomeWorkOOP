@@ -30,7 +30,7 @@ class Laptop
         {
             if (string.IsNullOrEmpty(value))
             {
-                throw new ArgumentNullException("Model cannot be empty!");
+                throw new ArgumentNullException("This model cannot be empty!");
             }
             this.model = value;
         }
