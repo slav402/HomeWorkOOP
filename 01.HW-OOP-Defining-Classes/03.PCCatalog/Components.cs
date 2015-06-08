@@ -41,14 +41,15 @@ class Components
 
     public string Details { get; set; }
 
-    public Components(string name, decimal price)
+    public Components(string name, decimal price) : this(name, null, price)
+    {
+        
+    }
+
+    public Components(string name, string details, decimal price) 
     {
         this.Name = name;
         this.Price = price;
-    }
-
-    public Components(string name, decimal price, string details) : this(name, price)
-    {
         this.Details = details;
     }
 }

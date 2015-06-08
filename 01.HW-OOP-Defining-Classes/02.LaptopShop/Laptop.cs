@@ -12,14 +12,15 @@ class Laptop
     private int hdd;
     private string screen;
 
-    public Laptop(string model, decimal price)
+    public Laptop(string model, decimal price) : this(model, price, null)
+    {
+        
+    }
+
+    public Laptop(string model, decimal price, Battery batery)
     {
         this.Model = model;
         this.Price = price;
-    }
-
-    public Laptop(string model, decimal price, Battery batery) : this(model, price)
-    {
         this.Batt = batery;
     }
 
@@ -30,7 +31,7 @@ class Laptop
         {
             if (string.IsNullOrEmpty(value))
             {
-                throw new ArgumentNullException("This model cannot be empty!");
+                throw new ArgumentNullException("Model cannot be empty!");
             }
             this.model = value;
         }
@@ -190,14 +191,18 @@ class Laptop
         {
             result.AppendLine("Screen: "+ this.Screen);
         }
-        if (Batt.BatteryModel != null)
+        if (Batt != null)
         {
-            result.AppendLine("Battery: " + this.Batt.BatteryModel);
+            if (Batt.BatteryModel != null)
+            {
+                result.AppendLine("Battery: " + this.Batt.BatteryModel);
+            }
+            if (Batt.BatteryLife > 0)
+            {
+                result.AppendLine("Battery Life: " + this.Batt.BatteryLife + "hours");
+            } 
         }
-        if (Batt.BatteryLife > 0)
-        {
-            result.AppendLine("Battery Life: " + this.Batt.BatteryLife + "hours");
-        }
+        
         result.AppendLine("Price: " + this.Price + "lv");
         return result.ToString();
     }

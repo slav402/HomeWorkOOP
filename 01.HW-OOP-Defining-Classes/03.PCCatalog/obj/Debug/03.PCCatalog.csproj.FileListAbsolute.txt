@@ -1,1 +1,9 @@
 c:\users\слави\documents\visual studio 2013\Projects\01.HW-OOP-Defining-Classes\03.PCCatalog\bin\Debug\03.PCCatalog.exe.config
+c:\users\слави\documents\visual studio 2013\Projects\01.HW-OOP-Defining-Classes\03.PCCatalog\bin\Debug\03.PCCatalog.exe
+c:\users\слави\documents\visual studio 2013\Projects\01.HW-OOP-Defining-Classes\03.PCCatalog\bin\Debug\03.PCCatalog.pdb
+c:\users\слави\documents\visual studio 2013\Projects\01.HW-OOP-Defining-Classes\03.PCCatalog\obj\Debug\03.PCCatalog.csprojResolveAssemblyReference.cache
+c:\users\слави\documents\visual studio 2013\Projects\01.HW-OOP-Defining-Classes\03.PCCatalog\obj\Debug\03.PCCatalog.exe
+c:\users\слави\documents\visual studio 2013\Projects\01.HW-OOP-Defining-Classes\03.PCCatalog\obj\Debug\03.PCCatalog.pdb
+C:\Users\Asus\Documents\Visual Studio 2013\Projects\01.HW-OOP-Defining-Classes\03.PCCatalog\bin\Debug\03.PCCatalog.exe.config
+C:\Users\Asus\Documents\Visual Studio 2013\Projects\01.HW-OOP-Defining-Classes\03.PCCatalog\obj\Debug\03.PCCatalog.exe
+C:\Users\Asus\Documents\Visual Studio 2013\Projects\01.HW-OOP-Defining-Classes\03.PCCatalog\obj\Debug\03.PCCatalog.pdb

@@ -7,10 +7,9 @@ class Person
     private int age;
     private string email;
 
-    public Person(string name, int age)       
+    public Person(string name, int age) : this(name, age, null)       
     {
-        this.Name = name;
-        this.Age = age;
+        
     }
     public Person(string name, int age, string mail)
     {
@@ -24,7 +23,7 @@ class Person
         get { return this.name; }
         set
         {
-            //value = value.Trim();
+            value = value.Trim();
             if (string.IsNullOrEmpty(value))
             {
                 throw new ArgumentException("Name cannot be empty!");
@@ -51,7 +50,11 @@ class Person
         get { return this.email; }
         set
         {
-            if (value == string.Empty || !value.Contains("@"))
+            if (value == string.Empty  )
+            {
+                throw new ArgumentException("Inavalid Email!");
+            }
+            else if ( !value.Contains("@"))
             {
                 throw new ArgumentException("Inavalid Email!");
             }
