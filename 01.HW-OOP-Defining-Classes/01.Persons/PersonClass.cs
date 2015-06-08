@@ -11,11 +11,11 @@ class Person
     {
         
     }
-    public Person(string name, int age, string mail)
+    public Person(string name, int age, string email)
     {
         this.Name = name;
         this.Age = age;
-        this.Email = mail;
+        this.Email = email;
     }
 
     public string Name
@@ -47,22 +47,22 @@ class Person
 
     public string Email
     {
-        get { return this.email; }
+        get
+        {
+            return this.email; 
+            
+        }
         set
         {
-            if (value == string.Empty  )
+            //if (value != string.Empty && !value.Contains("@"))
+            if (!string.IsNullOrEmpty(value) && (!value.Contains("@")))
             {
                 throw new ArgumentException("Inavalid Email!");
             }
-            else if ( !value.Contains("@"))
-            {
-                throw new ArgumentException("Inavalid Email!");
-            }
+            
             this.email = value;
         }
     }
-
-    
 
     public override string ToString()
     {
