@@ -32,4 +32,3 @@ class Point3D
         return string.Format("X = {0}, Y = {1}, Z = {2}", this.X, this.Y, this.Z);
     }
 }
-

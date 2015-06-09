@@ -1,0 +1,8 @@
+C:\Users\Asus\Documents\Visual Studio 2013\Projects\HomeWorkOOP\02.HW-OOP-Static-Members-And-Namespaces\02.DistanceCalculator\bin\Debug\02.DistanceCalculator.exe.config
+C:\Users\Asus\Documents\Visual Studio 2013\Projects\HomeWorkOOP\02.HW-OOP-Static-Members-And-Namespaces\02.DistanceCalculator\obj\Debug\02.DistanceCalculator.csprojResolveAssemblyReference.cache
+C:\Users\Asus\Documents\Visual Studio 2013\Projects\HomeWorkOOP\02.HW-OOP-Static-Members-And-Namespaces\02.DistanceCalculator\bin\Debug\02.DistanceCalculator.exe
+C:\Users\Asus\Documents\Visual Studio 2013\Projects\HomeWorkOOP\02.HW-OOP-Static-Members-And-Namespaces\02.DistanceCalculator\bin\Debug\02.DistanceCalculator.pdb
+C:\Users\Asus\Documents\Visual Studio 2013\Projects\HomeWorkOOP\02.HW-OOP-Static-Members-And-Namespaces\02.DistanceCalculator\bin\Debug\01.Point3D.exe
+C:\Users\Asus\Documents\Visual Studio 2013\Projects\HomeWorkOOP\02.HW-OOP-Static-Members-And-Namespaces\02.DistanceCalculator\bin\Debug\01.Point3D.pdb
+C:\Users\Asus\Documents\Visual Studio 2013\Projects\HomeWorkOOP\02.HW-OOP-Static-Members-And-Namespaces\02.DistanceCalculator\obj\Debug\02.DistanceCalculator.exe
+C:\Users\Asus\Documents\Visual Studio 2013\Projects\HomeWorkOOP\02.HW-OOP-Static-Members-And-Namespaces\02.DistanceCalculator\obj\Debug\02.DistanceCalculator.pdb
