@@ -1,0 +1,6 @@
+c:\users\слави\documents\visual studio 2013\Projects\03.HW-OOP-Inheritance-And-Abstraction\02.Animals\bin\Debug\02.Animals.exe.config
+c:\users\слави\documents\visual studio 2013\Projects\03.HW-OOP-Inheritance-And-Abstraction\02.Animals\bin\Debug\02.Animals.exe
+c:\users\слави\documents\visual studio 2013\Projects\03.HW-OOP-Inheritance-And-Abstraction\02.Animals\bin\Debug\02.Animals.pdb
+c:\users\слави\documents\visual studio 2013\Projects\03.HW-OOP-Inheritance-And-Abstraction\02.Animals\obj\Debug\02.Animals.csprojResolveAssemblyReference.cache
+c:\users\слави\documents\visual studio 2013\Projects\03.HW-OOP-Inheritance-And-Abstraction\02.Animals\obj\Debug\02.Animals.exe
+c:\users\слави\documents\visual studio 2013\Projects\03.HW-OOP-Inheritance-And-Abstraction\02.Animals\obj\Debug\02.Animals.pdb
