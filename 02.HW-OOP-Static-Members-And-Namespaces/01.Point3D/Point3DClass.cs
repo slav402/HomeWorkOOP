@@ -1,6 +1,6 @@
 ﻿using System;
 
-class Point3D
+public class Point3D
 {
     private static int counter = 0;
     private static readonly Point3D startPoint = new Point3D(0,0,0);
@@ -23,6 +23,7 @@ class Point3D
     {
         get { return counter; }
     }
+
     public int X { get; set; }
     public int Y { get; set; }
     public int Z { get; set; }
