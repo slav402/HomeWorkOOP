@@ -9,13 +9,14 @@ class MainMethod
         Animals[] animals = new Animals[]
         {
             new Tomcat("Leopold", 4, "Male"),
-            new Kitten("Fifi", 6, "female"),
             new Dog("Charo", 3, "male"),
+            new Kitten("Fifi", 6, "female"),
             new Frog("Kiko", 2, "male"),
         };
         
         foreach (var animal in animals)
         {
+            Console.WriteLine(animal);
             animal.ProduceSound();
         }
 

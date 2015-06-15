@@ -1,1 +1,2 @@
 c:\users\слави\documents\visual studio 2013\Projects\03.HW-OOP-Inheritance-And-Abstraction\03.CompanyHierarchy\bin\Debug\03.CompanyHierarchy.exe.config
+C:\Users\Слави\Documents\Visual Studio 2013\Projects\HomeWorkOOP\03.HW-OOP-Inheritance-And-Abstraction\03.CompanyHierarchy\bin\Debug\03.CompanyHierarchy.exe.config

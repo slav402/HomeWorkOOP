@@ -10,6 +10,7 @@
     public int Age { get; set; }
     public string Gender { get; set; }
 
+    public abstract override string ToString();
     public abstract void ProduceSound();
 }
 

@@ -4,4 +4,9 @@
     {
 
     }
+
+    public override string ToString()
+    {
+        return string.Format("{0}\nName: {1}\nAge: {2}\nGender: {3}", GetType(), this.Name, this.Age, this.Gender);
+    }
 }
